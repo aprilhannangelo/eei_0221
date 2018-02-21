@@ -66,13 +66,13 @@ $row4=mysqli_fetch_array($result4,MYSQLI_ASSOC);
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-// require '../PHPMailer-master/src/Exception.php';
-// require '../PHPMailer-master/src/PHPMailer.php';
-// require '../PHPMailer-master/src/SMTP.php';
-
-require 'C:\xampp\htdocs\eei\PHPMailer-master\src\Exception.php';
-require 'C:\xampp\htdocs\eei\PHPMailer-master\src\PHPMailer.php';
-require 'C:\xampp\htdocs\eei\PHPMailer-master\src\SMTP.php';
+require '../PHPMailer-master/src/Exception.php';
+require '../PHPMailer-master/src/PHPMailer.php';
+require '../PHPMailer-master/src/SMTP.php';
+//
+// require 'C:\xampp\htdocs\eei\PHPMailer-master\src\Exception.php';
+// require 'C:\xampp\htdocs\eei\PHPMailer-master\src\PHPMailer.php';
+// require 'C:\xampp\htdocs\eei\PHPMailer-master\src\SMTP.php';
 
 
 $query4 = "SELECT ticket_number from ticket_t where ticket_id = '$latest_id'";

@@ -9,9 +9,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 //varies per computer
-require 'C:\xampp\htdocs\eei\PHPMailer-master\src\Exception.php';
-require 'C:\xampp\htdocs\eei\PHPMailer-master\src\PHPMailer.php';
-require 'C:\xampp\htdocs\eei\PHPMailer-master\src\SMTP.php';
+require '../PHPMailer-master/src/Exception.php';
+require '../PHPMailer-master/src/PHPMailer.php';
+require '../PHPMailer-master/src/SMTP.php';
 
 //donna's
 // require '/Applications/XAMPP/xamppfiles/htdocs/eei_merged/PHPMailer-master/src/Exception.php';
